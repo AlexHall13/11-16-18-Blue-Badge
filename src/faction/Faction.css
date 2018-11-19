@@ -1,0 +1,9 @@
+#upDaterace{
+    min-width: 0;
+    max-width: 50vw;
+    overflow: auto;
+
+}
+#upDaterace::-webkit-scrollbar{
+    height: 5px;
+}

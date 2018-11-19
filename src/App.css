@@ -1,0 +1,124 @@
+html, body {
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+  background-image: url('https://www.dphealthnow.com/wp-content/uploads/2016/05/light-teal-medical-background.jpg') ;
+  height: 70em;
+  background-size: auto;
+  /* background-repeat: no-repeat; 
+  background-position: center center;
+  background-blend-mode: color; */
+}
+
+.navbar-brand {
+  color: #2fc5d4;
+  font-family:"star wars1"; 
+  font-size: 5em;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #2fc5d4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+/* body */
+
+body {
+  background-color: white;
+  font-family: 'Sedgwick Ave Display', cursive;
+
+}
+
+
+
+
+/* main */
+.main {
+  background-image: url('https://ak4.picdn.net/shutterstock/videos/25969574/thumb/1.jpg') ;
+  background-position: center;
+  border: 3px solid rgb(47,197,212);
+  /* height: 100%; */
+  min-width: 100%;
+  min-height: 300%;
+  text-align: center;
+  padding: -1em;
+}
+
+p {
+  font-family: "News Cycle", sans-serif;
+  color: #4bd5ee;
+  text-align: center;
+
+}
+
+.sidebar {
+  display: flex;
+  border: 1px solid #000000;
+  /* text-align: center; */
+  background-color: transparent; 
+  /* font-family: 'Sedgwick Ave Display', cursive; */
+  padding: .1em ;
+}
+
+ul {
+  list-style-type: 'none';
+}
+/* Sidebar */
+.sidebar-list-styling{
+  text-align: center;
+  background-color: #35A580;
+  color: rgb(233, 14, 14);
+}
+
+.sidebar-list a{
+  color: #FFD700;
+  padding: 0;
+}
+
+.sidebar-route{ 
+  flex: 1;
+}
+
+/* header */
+.header {
+  margin-top: 0.5em!important;
+  text-align: center;
+  background-color: #35A580; 
+  color: white;
+}
+
+.header a {
+  color: white;
+}
+
+.header  p {
+  margin-top: 0.8em!important;
+}
+
